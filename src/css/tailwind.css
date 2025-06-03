@@ -68,6 +68,14 @@
 }
 
 @font-face {
+    font-family: 'Inter Thin';
+    src: url('../../assets/fonts/InterDisplay-Thin.woff2') format('woff2'),
+        url('../../assets/fonts/InterDisplay-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Inter italic';
     src: url('../../assets/fonts/InterDisplay-Italic.woff2') format('woff2'),
         url('../../assets/fonts/InterDisplay-Italic.woff') format('woff');
@@ -99,14 +107,14 @@
 body {
     background-color: var(--primary-color);
     font-family: 'Inter Light';
-    font-size: 16px;
-    line-height: 1.9em;
+    font-size: 14px;
+    line-height: 1.6em;
     letter-spacing: 1px;
 }
 
 h1 {
     font-family: 'Inter Medium';
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 p {
@@ -130,10 +138,6 @@ a:hover {
 
 .rb-title {
     font-family: 'Boska Medium Italic';
-}
-
-.rb-menu {
-    
 }
 
 .rb-menu li {
@@ -175,3 +179,14 @@ a:hover {
 .section-left {}
 
 .section-right {}
+
+.rb-description p {
+    margin-bottom: 12px;
+}
+
+.rb-footer a,
+.rb-footer p,
+.rb-footer li {
+    font-size: .8rem;
+    line-height: 140%;
+}

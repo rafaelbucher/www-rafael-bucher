@@ -2,4 +2,6 @@
 
 return [
     'languages' => true,
+    'debug' => true,
+
 ];

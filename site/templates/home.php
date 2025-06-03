@@ -1,26 +1,18 @@
 <?php snippet('header') ?>
 
-<main class="w-screen h-screen pt-44 pb-16 pl-32 pr-16 relative">
+<main class="w-screen h-screen p-8 md:pt-44 md:pb-16 md:pl-32 md:pr-16">
 
-  <div class="wrapper grid grid-flow-col grid-rows-1 gap-4">
+  <div class="wrapper grid grid-flow-row md:grid-flow-col md:grid-rows-1 md:gap-4">
 
-    <div class="section-left">
+    <div class="rb-description section-left md:-mt-16">
       <h1 class="uppercase"><?= $page->subtitle() ?></h1>
       <?= $page->description()->kirbytext() ?>
     </div>
 
-    <div class="section-right">
+    <div class="rb-nav section-right">
       <?php snippet('nav') ?>
     </div>
 
-  </div>
-
-  <div class="absolute bottom-4 left-32">
-    <?php snippet('nav-languages') ?> 
-  </div>
-
-  <div class="absolute bottom-4 right-4">
-    <?= $page->copyright()->kirbytext() ?>
   </div>
 
 </main>
