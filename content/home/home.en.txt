@@ -2,4 +2,24 @@ Title: Home
 
 ----
 
+Subtitle: Rafaël Bucher
+
+----
+
+Description:
+
+Developer of user-first, accessible, 
+and eco-friendly interfaces.
+
+Currently a partner at (link: https://www.nortis.be/ text: Nortis Studio), 
+always on the lookout for new challenges.
+
+Feel free to (link: page://i1CF9m8xwZovYaE2 text: contact me) !
+
+----
+
+Copyright: © 2025
+
+----
+
 Uuid: 1xtJXs5KhORn17ER

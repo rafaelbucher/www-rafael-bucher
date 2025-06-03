@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Boska';
+    src: url('../../assets/fonts/Boska-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/Boska-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boska Medium Italic';
+    src: url('../../assets/fonts/Boska-MediumItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Boska-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boska Medium';
+    src: url('../../assets/fonts/Boska-Medium.woff2') format('woff2'),
+        url('../../assets/fonts/Boska-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boska Bold';
+    src: url('../../assets/fonts/Boska-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/Boska-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boska Black';
+    src: url('../../assets/fonts/Boska-Black.woff2') format('woff2'),
+        url('../../assets/fonts/Boska-Black.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Boska Black Italic';
+    src: url('../../assets/fonts/Boska-BlackItalic.woff2') format('woff2'),
+        url('../../assets/fonts/Boska-BlackItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../../assets/fonts/InterDisplay-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/InterDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Inter Light';
+    src: url('../../assets/fonts/InterDisplay-Light.woff2') format('woff2'),
+        url('../../assets/fonts/InterDisplay-Light.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter italic';
+    src: url('../../assets/fonts/InterDisplay-Italic.woff2') format('woff2'),
+        url('../../assets/fonts/InterDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter medium';
+    src: url('../../assets/fonts/InterDisplay-Medium.woff2') format('woff2'),
+        url('../../assets/fonts/InterDisplay-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url('../../assets/fonts/InterDisplay-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/InterDisplay-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: rgb(236, 231, 225);
+    --secondary-color: rgb(26, 24, 24);
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Inter Light';
+    font-size: 16px;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-family: 'Inter Medium';
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    border-bottom: 2px solid #000;
+    text-decoration: none;
+    transition: border-color .25s;
+}
+
+a:hover {
+    border-bottom-color: rgba(0, 0, 0, 0);
+    text-decoration: line-through;
+}
+
+.active a {
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.rb-title {
+    font-family: 'Boska Medium Italic';
+}
+
+.rb-menu {
+    
+}
+
+.rb-menu li {
+    position: relative;
+}
+
+.rb-menu a {
+    font-family: 'Boska Medium Italic';
+    font-size: 5rem;
+    line-height: .95em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: translateX(0deg) skew(20deg);    
+    z-index: 100;
+    font-size: 8vw;
+    position: relative;
+    border-bottom: none;
+}
+
+.rb-menu a:hover {
+    font-family: 'Boska Bold';
+    transform: translateX(16px) skew(-20deg);
+    transition: all 250ms ease;
+    display: block;
+    text-decoration: none;
+}
+
+.container {
+    z-index: 500;
+    position: relative;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.section-left {}
+
+.section-right {}

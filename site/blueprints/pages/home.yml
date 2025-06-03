@@ -1,0 +1,33 @@
+title: Home
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      main:
+        width: 2/3
+        sections:
+          fields:
+            type: fields
+            fields:
+              subtitle:
+                label: title
+                type: text
+              description:
+                type: textarea
+                size: medium
+              copyright:
+                type: text
+
+
+  seo:
+    label: SEO
+    icon: search
+    columns:
+      main:
+        width: 2/3
+        sections:
+      sidebar:
+        width: 1/3
+        sections:
